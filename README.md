@@ -1,8 +1,9 @@
-# DEALNI STUDIO
+# EASTBROWN PIZZA
 #### version 1.00.00.1
 #### By **DARSAN HIRANI urf BABAYAGI**
 ## Description
-This is awebsite created using I have used bootstrap
+This is awebsite created 
+.bootstrap
 .jquery
 . custom style sheet
 . own javascript function
