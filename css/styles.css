@@ -213,7 +213,7 @@ header {
 
 .toppings-container, .crust-container {
   
-  margin-left:90px;
+  margin-left :150px;
   width: 360px;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
@@ -252,7 +252,7 @@ header {
 
 .toppings-body {
   position: relative;
-  height: calc(100% - 73px);
+  height: calc(100% - 790px);
 }
 
 .toppings-body-non, .toppings-body-veg {
@@ -297,6 +297,7 @@ header {
 .topping.on-the-pizza::after, .crust.selected-crust::after {
   content: ' ✔️';
   margin-left: 5px;
+  width: 20px;
 }
 
 /* BILL */
@@ -307,7 +308,15 @@ header {
 }
 
 .bill-extras {
-  font-size: 1.4rem;
+  font-size: 30px;
+  margin-left: 400px;
+  border: 10px solid #dd7c0de0;
+  border-radius:20px; 
+  width: 40%;
+  margin-top: -120px;
+  padding: 15px;
+  margin-bottom: 25px;
+  ma
 }
 
 .cheese {
@@ -356,13 +365,14 @@ transition: 5s;
 }
 
 .bill-extras input {
-  position: absolute;
+  position: center;
   opacity: 0;
+  width: 20px;
 }
 
 select {
-  background: #0d89db;
-  color: #fff;
+  background: #dbbc0d;
+  color: rgb(3, 3, 3);
   font-size: 1rem;
   font-family: 'Jua'
 }
@@ -403,6 +413,8 @@ select {
   color: #fff;
   transition: all .25s ease-in;
   box-shadow: 0 0 30px #000a;
+  width: 170px;
+  margin-left: 600px;
 }
 
 #buy-now:hover {
@@ -493,9 +505,37 @@ header{
   box-shadow: 0 0 30px #000a;
 
 }
-.cheeselabel{
-  margin-left: 300px;
+.two:hover {
+  box-shadow: 0 0 10px #0009;
+  transform: scale(.98)
 }
+.cheeselabel{
+  margin-left: 400px;
+  border: 10px solid #dd7c0de0;
+  border-radius:20px; 
+  width: 40%;
+  margin-top: -40px;
+  padding: 15px;
+}
+
 .cheeselabel label {
-  color: #FFFCF0;
+  color: rgb(226, 183, 11);
+  font-size: 30px;
+  margin-left: 130px;
+  
+}
+.checkbox{
+  display: none;
+}
+.bill-extras span{
+  color: #d4e215;
+  margin-left: 160px;
+}
+.mmm{
+  margin-left:900px;
+  border: 10px solid #dd7c0de0;
+  border-radius:10px; 
+  width: 140px;
+  margin-top: -40px;
+  padding: 3px;
 }
