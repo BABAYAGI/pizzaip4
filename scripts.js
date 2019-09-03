@@ -123,6 +123,10 @@ const updateImage = (toppings) => {
 function fb() {
   alert("Your pizza(s) is arriving 30mins. Have a nice day");
 }
+function bb() {
+  alert("Our delivery charge is ksh500 ");
+  alert("Please pin your exact loaction on the map below ");
+}
 
 // contact validation
 // getting the name from form
