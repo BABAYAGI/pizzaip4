@@ -606,3 +606,28 @@ header{
   border-radius: 15px;
   text-align: center;
 }
+
+
+/* hover for chefs*/
+#deve{
+  display: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+#des{
+  display: none;
+  text-align: center;
+  font-size: 15px;
+}
+
+#product {
+  display: none;
+  text-align: center;
+  font-size: 15px;
+}
+.whatwedo{
+  background-image: url(../images/about\ chefbg.jpg);
+  text-align: center;
+  
+}

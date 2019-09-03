@@ -128,6 +128,47 @@ function bb() {
   alert("Please pin your exact loaction on the map below ");
 }
 
+
+//what we do
+$(document).ready(function(){
+  $("#design").hover(function() {
+    $("#des").show();
+    $("#design").hide();
+    $(".de").hide();
+    
+  });
+  $("#des").mouseleave(function() {
+    $("#design").show();
+    $("#des").hide();
+    $(".de").show();
+      
+  }); 
+});
+$(document).ready(function() {
+  $("#dev").hover(function() {
+    $("#deve").show();
+    $("#dev").hide();
+    $(".de").hide();
+  });
+  $("#deve").mouseleave(function() {
+    $("#dev").show();
+    $("#deve").hide();
+    $(".de").show();  
+  }); 
+});
+$(document).ready(function() {
+  $("#producti").hover(function() {
+    $("#product").show();
+    $("#producti").hide();
+    $(".de").hide();
+  });
+  $("#product").mouseleave(function() {
+    $("#producti").show();
+    $("#product").hide();
+    $(".de").show();
+      
+  }); 
+});
 // contact validation
 // getting the name from form
 $(document).ready(function() {
@@ -153,3 +194,5 @@ $(document).ready(function() {
     document.getElementById("form1").reset();
   });
 });
+
+
