@@ -423,45 +423,7 @@ select {
 }
 
 
-.conc{
-  background-image: url(../images/);
-  height: 400px;
-  background-size: 100%;
-  text-align: center;
-}
-.conc input{
-  color: white;
-  background-color: rgba(240, 255, 252, 0.342);
-  width: 400px;
-  margin-left: 20px;
-  margin-top: 30px;
-}
-#submit {
-  color:rgba(216, 197, 197, 0.507);
-  width: 200px;
-  margin-top: 15px;
-  font-weight: bolder;
-  background: transparent;
-  
-}
-#message{
-  height: 230px;
-  
-} 
-.rw3{
-  margin-top: 15px;
-  margin-left: 175px;
-}
-.foot {
-  text-align: center;
-  margin-top: 20px;
-}
-.foot h3 {
-  font-size: 15px;
-}
-.foot h4 {
-  font-size: 10px;
-}
+
 .text {
   background: transparent;
   margin-top: 20px;
@@ -483,7 +445,7 @@ span{
 header{
   background-image: url(../images/dark.png);
   color: #eb830d;
-  
+
 }
 .mapp{
   margin-left: 400px;
@@ -545,4 +507,70 @@ header{
   color: #eb830d;
   font-size: 40px;
   text-align: center;
+}
+
+
+/* contact styling*/
+.conc{
+  background-image: url(../images/);
+  height: 500px;
+  background-size: 100%;
+  text-align: center;
+}
+.conc input{
+  color: white;
+  background-color: rgba(240, 255, 252, 0.342);
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#submit {
+  color:rgba(216, 197, 197, 0.507);
+  width: 200px;
+  margin-top: 15px;
+  font-weight: bolder;
+  background: transparent;
+  
+}
+#message{
+  height: 230px;
+  
+} 
+.rw3{
+  margin-top: 15px;
+  margin-left: 175px;
+}
+.foot {
+  text-align: center;
+  margin-top: 20px;
+}
+.foot h3 {
+  font-size: 15px;
+}
+.foot h4 {
+  font-size: 10px;
+}
+.boil{
+  background-image: url(../images/contact.jpg);
+}
+#name
+{
+  margin-left: 160px;
+  background-color: #e28315b0;
+}
+#email{
+  background-color: #e28315b0;
+}
+#text{
+  background-color: #e28315b0;
+  color: aqua;
+  margin-top: 40px;
+}
+.contact-us{
+  color: #eb830d;
+}
+.rw3{
+  margin-left: 180px;
+  margin-top: -50px;
+  
 }
