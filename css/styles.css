@@ -577,3 +577,8 @@ header{
   
 }
 /* about us styling*/
+.abhead{
+  background-image: url(../images/bg_home.jpg);
+  height: 400px;
+  background-size: cover;
+}
