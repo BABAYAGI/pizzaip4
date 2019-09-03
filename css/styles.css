@@ -478,9 +478,12 @@ span{
 .tops{
   text-align: center;
   margin-left: 300px;
+  border: 
 }
 header{
   background-image: url(../images/dark.png);
+  color: #eb830d;
+  
 }
 .mapp{
   margin-left: 400px;
@@ -533,9 +536,13 @@ header{
 }
 .mmm{
   margin-left:900px;
-  border: 10px solid #dd7c0de0;
+  border: 2px solid #dd7c0de0;
   border-radius:10px; 
-  width: 140px;
-  margin-top: -40px;
+  width: 240px;
+  margin-top: -90px;
   padding: 3px;
+  background-image: url(../images/dark.png);
+  color: #eb830d;
+  font-size: 40px;
+  text-align: center;
 }
