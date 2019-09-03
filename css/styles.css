@@ -493,3 +493,9 @@ header{
   box-shadow: 0 0 30px #000a;
 
 }
+.cheeselabel{
+  margin-left: 300px;
+}
+.cheeselabel label {
+  color: #FFFCF0;
+}
